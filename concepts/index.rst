@@ -43,7 +43,7 @@ Lifecycle Nodes
 Lifecycle (or Managed, more correctly) nodes are unique to ROS2.
 More information can be `found here <https://design.ros2.org/articles/node_lifecycle.html>`_.
 They are nodes that contain state machine transitions for bringup and teardown of ROS2 servers.
-This helps in determinstic behavior of ROS systems in startup and shutdown.
+This helps in determnistic behavior of ROS systems in startup and shutdown.
 It also helps users structure their programs in reasonable ways for commercial uses and debugging.
 
 When a node is started, it is in the unconfigured state, only processing the node's constructor which should **not** contain any ROS networking setup or parameter reading.
